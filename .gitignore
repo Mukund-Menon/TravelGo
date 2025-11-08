@@ -1,0 +1,8 @@
+# Dependency directories
+/node_modules
+
+# Environment variables (CRITICAL SECURITY RISK)
+.env
+
+# Logs and local files
+npm-debug.log
