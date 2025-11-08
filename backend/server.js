@@ -11,7 +11,7 @@ const app = express();
 // --- 2.1 CRITICAL FIX: CORS Middleware ---
 // Allows frontend (port 5173) to talk to backend (port 5000)
 app.use(cors({
-    origin: 'http://localhost:5173', // <-- This MUST match the frontend port
+    origin: 'http://localhost:3000', // <-- This MUST match the frontend port
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 }));
